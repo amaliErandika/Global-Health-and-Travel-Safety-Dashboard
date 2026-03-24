@@ -1,0 +1,56 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to move to next line on smaller screens */
+  gap: 20px;       /* Space between cards */
+  justify-content: center; /* Center cards horizontally */
+  padding: 20px;
+  overflow-x: auto; /* Allow horizontal scroll if needed */
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid gray; /* Border will be overridden by inline color */
+  border-radius: 12px;
+  padding: 15px;
+  width: 220px; /* Fixed width for uniformity */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  flex-shrink: 0; /* Prevent shrinking in flex container */
+}
+
+.card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover; /* Make flag fit nicely */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.flag {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.chart-container {
+  margin: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
