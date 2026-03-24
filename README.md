@@ -8,6 +8,16 @@ The Global Health and Travel Safety Dashboard is a web-based client-server appli
 The system fetches COVID-19 statistics using the disease.sh API and attempts to integrate travel advisory information. Data is displayed on an interactive dashboard with charts and indicators. User searches are stored in MongoDB for historical analysis.
 
 ---
+## 📷 Screenshots
+
+### 🔐 Login Page
+![Login](screenshots/login.png)
+
+### 📊 Dashboard
+![Dashboard](dashboard.png)
+
+### 🌍 Country Data
+![Country](screenshots/country.png)
 
 ### 1.2 Purpose of the System
 This system provides:
