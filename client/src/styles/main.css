@@ -1,0 +1,39 @@
+/* Navbar only contains logout button */
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* push logout to right */
+  align-items: center;
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  padding: 15px 20px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logout-btn {
+  padding: 6px 14px;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Centered content for dashboard title and search box */
+.dashboard-center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-box {
+  margin-top: 10px;
+  padding: 10px;
+  width: 50%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
