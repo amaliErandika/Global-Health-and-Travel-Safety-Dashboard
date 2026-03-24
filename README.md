@@ -11,13 +11,16 @@ The system fetches COVID-19 statistics using the disease.sh API and attempts to 
 ## 📷 Screenshots
 
 ### 🔐 Login Page
-![Login](screenshots/login.png)
+![Login](login.png)
+
+### 🔐 Sign up Page
+![Login](register.png)
 
 ### 📊 Dashboard
 ![Dashboard](dashboard.png)
 
-### 🌍 Country Data
-![Country](screenshots/country.png)
+### 🌍 Home Page
+![Country](main.png)
 
 ### 1.2 Purpose of the System
 This system provides:
